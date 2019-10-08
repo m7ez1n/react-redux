@@ -19,6 +19,10 @@ function* addToCart({ id }) {
 
   const amount = currentAmount + 1;
 
+  if (stockAmount > amount) {
+    toast.success('Seu produto foi adicionado ao carrinho!');
+  }
+
   if (amount > stockAmount) {
     toast.error('Quantidade fora de estoque');
     return;

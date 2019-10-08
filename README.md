@@ -17,11 +17,6 @@ ficou bem legal. As páginas tem um estilo global, que é o header e o fundo das
   Usei também o Reactotron para captar as chamadas que faço em cada ação para que
 assim eu veja mais informações sobre cada uma e ter um controle maior. 
 
-### Coisas que pretendo fazer :open_mouth:
-
-- [ ] Informação de quando o carrinho está disponível/vazio 
-- [ ] Loading de quando o react faz a chamada a API
-
 <h2 align="center">
   Acessem a He4rt :purple_heart:
 </h2>
