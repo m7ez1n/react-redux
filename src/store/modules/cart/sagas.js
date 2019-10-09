@@ -20,7 +20,10 @@ function* addToCart({ id }) {
   const amount = currentAmount + 1;
 
   if (stockAmount > amount) {
-    toast.success('Seu produto foi adicionado ao carrinho!');
+    toast.success('Seu produto foi adicionado ao carrinho!', {
+      position: toast.POSITION.BOTTOM_RIGHT,
+      autoClose: 2000,
+    });
   }
 
   if (amount > stockAmount) {
