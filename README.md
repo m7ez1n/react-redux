@@ -2,6 +2,10 @@
 
 ### Falando um pouco mais sobre o projeto :grin:
 
+### Imagem de como ficou o projeto: 
+
+![Captura de Tela (60)](https://user-images.githubusercontent.com/44484286/66719716-c02e9b00-edc9-11e9-9231-2e97513977e2.png)
+
   Bom, nesse repositório eu estudo o react usando a estrutura flux e usando
 react-saga para fazer consultas a api. O projeto em si é uma loja de tênis da rocketseat "Rocketshoes". 
 
